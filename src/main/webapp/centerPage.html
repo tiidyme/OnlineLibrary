@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.12/vue.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.0/jquery.js"></script>
+    <script src="index_js.js"></script>
+</head>
+<body>
+<div style="text-align: center">
+    <h1 class="glyphicon glyphicon-signal" aria-hidden="true">热门</h1>
+</div>
+
+<div id="div" class="row">
+    <div v-for="(book_name,i in res)" class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="img/test.png" alt="...">
+            <div  class="caption" STYLE="text-align: center">
+                <h3 >{{book[0]["Book_Name"]}}</h3>
+                <p>brief introduction</p>
+                <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

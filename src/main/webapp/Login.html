@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.0/jquery.js"></script>
+
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js"></script>
+<!--    <script src="Login_js.js"></script>-->
+
+</head>
+<body>
+<form method="GET">
+
+    <div style="width: 70%;margin:auto;" style="text-align: center">
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">用户名</span>
+            <input name="username" type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+        </div>
+
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon2" >邮箱</span>
+            <input name="e_mail" type="text" class="form-control" placeholder="Recipient's username" aria-describedby="basic-addon1">
+            <div class="input-group-btn">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action <span class="caret"></span></button>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                </ul>
+            </div><!-- /btn-group -->
+        </div>
+
+        <div class="input-group">
+            <span class="input-group-addon">$</span>
+            <input name="password" type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+            <span class="input-group-addon">.00</span>
+        </div>
+
+<!--        <label for="basic-url">Your vanity URL</label>-->
+<!--        <div class="input-group">-->
+<!--            <span class="input-group-addon" id="basic-addon3">https://example.com/users/</span>-->
+<!--            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">-->
+<!--        </div>-->
+        <input id="submit" type="submit" value="submit">
+    </div>
+</form>
+</body>
+</html>
